@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    font-size: 7px;
+}
+
+body{
+text-align: center;
+font-size: 1.6rem;
+color: white;
+background-color:#333;
+letter-spacing: 0.3rem;
+}
+
+header{
+    height: 46rem;
+}
+
+header .bg{
+    background-image: url(image/back.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    opacity: 0.6;
+    z-index: -1;
+    width: 100%;
+    height: 46rem;
+}
+
+
+.content{
+    padding-top: 15rem;
+}
+
+.content h1{
+    margin-bottom: 1rem;
+}
+.content p{
+    margin-bottom: 3rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.content a{
+
+   padding: 1rem 3rem;
+    border-radius: 1rem;
+    color: whitesmoke;
+    background-color: #333;
+}
+
+.content a:hover{
+    background-color: white;
+    color: #333;
+    transition: 2s;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+main .slider{
+    background-color:white;
+    color: #000;
+    padding-bottom: 3rem;
+}
+
+.slider h1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sect-b{
+    padding: 2rem;
+    
+   
+}
+
+ul{
+    list-style: none;
+}
+
+.col h1{
+    margin-bottom: 2rem;
+    
+}
+
+.col{
+    margin-top: 2rem;
+    color: #333;
+    padding-bottom: 2rem;
+    background-color:white;
+}
+
+
+.contentbar{
+    padding: 2rem;
+    background-color: antiquewhite;
+    color: #333;
+    padding-bottom:4rem;
+
+}
+
+
+.contentbar1{
+    padding: 2rem;
+    background-color: green;
+    color: white;
+    padding-bottom:4rem;
+
+}
+
+.contentbar2{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    padding-bottom:4rem;
+}
+
+footer h1{
+ padding-bottom: 2rem;
+}
+
+.kimmyapti{
+    background-color: white;
+    color: black;
+    font-size: 2.1rem;
+}
+.kimmyapti:hover{
+    background-color: #333;
+    transition: 1s;
+    color: white;
+}
+.kimmyapti a{
+    color: black;
+   
+}
+.kimmyapti a:hover{
+    color: white;
+}
+
+@media screen and (min-width:800px){
+ 
+    html{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    
+html{
+    font-size: 11px;
+}
+.sect-b li{
+    width: 27%;
+    display: inline-block;
+    margin: 1rem;
+}
+.col img{
+    border-radius: 3rem;
+}
+
+
+.contentbar1{
+  float: left;
+    background-color: green;
+    color: white;
+   height: auto;
+  width: 50%;
+  position: absolute;
+}
+
+.contentbar2{
+  float: right;
+    background-color: black;
+    color: white;
+   height: auto;
+  width: 50%;
+}
+
+.contentbar{
+   
+   background-color: #333;
+    color: whitesmoke;
+
+
+}
+
+.kimmyapti{
+    background-color: white;
+    color: black;
+    font-size: 2.1rem;
+    
+}
+
+}
